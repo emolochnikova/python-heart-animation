@@ -38,5 +38,5 @@ def animate(frameindex):
 plt.gca().set_xticks([], [])
 plt.gca().set_yticks([], [])
 anim = animation.FuncAnimation(fig, animate, nframes, interval=interval_msec, blit=True)
-anim.save('heart.mp4')
+anim.save('heart.gif')
 plt.show()
